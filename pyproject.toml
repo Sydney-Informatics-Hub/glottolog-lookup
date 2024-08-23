@@ -1,0 +1,14 @@
+[project]
+name = "glottolog"
+version = "0.1.0"
+description = "Matching OMAA languages against glottolog"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pyglottolog>=3.13.0",
+    "openpyxl>=3.1.5",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
